@@ -15,5 +15,4 @@ public class Order {
     private String id;
     private String product_id;
     private BigDecimal qty;
-
 }

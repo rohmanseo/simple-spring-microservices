@@ -4,6 +4,8 @@ import com.rohmanseo.productservice.model.Product;
 import com.rohmanseo.productservice.repository.ProductRepository;
 import com.rohmanseo.productservice.repository.ProductRepositoryImpl;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.cloud.circuitbreaker.resilience4j.Resilience4JCircuitBreakerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
